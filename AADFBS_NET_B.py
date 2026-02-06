@@ -1,6 +1,6 @@
 # NET_B -  SELF STATE NETWORK
 # Artificial Belief-Integrated Decision Engine: Enhanced Through Abstract Latent Long-term Reasoning (ABIDE-ENTHRALLED)   - self state network
-# Version: 1.0.4
+# Version: 1.0.5
 # Tensorflow version: 2.15.0
 # Activation functions used: relu, relu, softmax
 

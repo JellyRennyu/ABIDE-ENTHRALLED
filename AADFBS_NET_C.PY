@@ -1,6 +1,6 @@
 # NET_C -  ENEMY STATE NETWORK
 # Artificial Belief-Integrated Decision Engine: Enhanced Through Abstract Latent Long-term Reasoning (ABIDE-ENTHRALLED)   - enemy state network
-# Version: 0.0.1
+# Version: 1.0.1
 # Tensorflow version: 2.15.0
 # Activation functions used: relu, relu, linear
 
