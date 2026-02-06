@@ -1,6 +1,6 @@
 # NET_T - Long-term Strategic Transformer
 # Artificial Belief-Integrated Decision Engine: Enhanced Through Abstract Latent Long-term Reasoning (ABIDE-ENTHRALLED) 
-# Version: 0.3.0
+# Version: 1.0.2
 # Tensorflow version: 2.15.0
 
 # ----------------------------------------------------------
