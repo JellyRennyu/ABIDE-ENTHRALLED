@@ -1,6 +1,6 @@
 # NET_ENTHRALLED -  DETERMINISTIC DECISION NETWORK
 # Artificial Belief-Integrated Decision Engine: Enhanced Through Abstract Latent Long-term Reasoning (ABIDE-ENTHRALLED)   - decision network
-# Version: 1.0.0
+# Version: 1.0.1
 # Tensorflow version: 2.15.0
 # Activation functions used: relu, relu, tanh
 
@@ -230,4 +230,4 @@ test_x, test_y = generate_sample()
 pred = model.predict(test_x[np.newaxis])[0]
 
 # save the model
-model.save("AADFBS_ENTHRALLED.keras")
+model.save("AADFBS_ENTHRALLED.h5")

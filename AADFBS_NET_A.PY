@@ -1,7 +1,7 @@
 # NET_A - BALL STATE NETWORK
 # Artificial Belief-Integrated Decision Engine
 # (ABIDE-ENTHRALLED)
-# Version: 1.1.0
+# Version: 1.1.1
 # Tensorflow: 2.15.0
 # Activation functions used: relu, relu, linear
 
@@ -215,4 +215,4 @@ print("Semantic embeddings:")
 print(embeddings)
 
 # Saving model
-model.save("NET_A_BALL_ENCODER.keras")
+model.save("NET_A_BALL_ENCODER.h5")

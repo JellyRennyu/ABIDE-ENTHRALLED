@@ -1,6 +1,6 @@
 # NET_T - Long-term Strategic Transformer
 # Artificial Belief-Integrated Decision Engine: Enhanced Through Abstract Latent Long-term Reasoning (ABIDE-ENTHRALLED) 
-# Version: 1.1.2
+# Version: 1.1.3
 # Tensorflow version: 2.15.0
 
 # ----------------------------------------------------------
@@ -164,4 +164,4 @@ plt.tight_layout()
 plt.show()
 
 # model saveq
-model.save("AADFBS_NET_T.keras")
+model.save("AADFBS_NET_T.h5")

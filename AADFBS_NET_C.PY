@@ -1,6 +1,6 @@
 # NET_C -  ENEMY STATE NETWORK
 # Artificial Belief-Integrated Decision Engine: Enhanced Through Abstract Latent Long-term Reasoning (ABIDE-ENTHRALLED)   - enemy state network
-# Version: 1.1.1
+# Version: 1.1.2
 # Tensorflow version: 2.15.0
 # Activation functions used: relu, relu, linear
 
@@ -183,4 +183,4 @@ for i, o in enumerate(semantic_outputs):
     print(f"Aggressive viable:   {o[5]:.2f}")
 
 # Saving model
-model.save("NET_C_ENEMY_ENCODER.keras")
+model.save("NET_C_ENEMY_ENCODER.h5")

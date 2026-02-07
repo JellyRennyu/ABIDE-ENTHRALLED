@@ -1,6 +1,6 @@
 # NET_B -  SELF STATE NETWORK
 # Artificial Belief-Integrated Decision Engine: Enhanced Through Abstract Latent Long-term Reasoning (ABIDE-ENTHRALLED)   - self state network
-# Version: 1.1.5
+# Version: 1.1.6
 # Tensorflow version: 2.15.0
 # Activation functions used: relu, relu, softmax
 
@@ -201,4 +201,4 @@ for i, e in enumerate(embeddings):
     print(f"Control reliability:     {e[7]:.2f}")
 
 # Save the model
-model.save("NET_B_SELF_ENCODER.keras")
+model.save("NET_B_SELF_ENCODER.h5")
