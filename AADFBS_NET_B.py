@@ -1,6 +1,6 @@
 # NET_B -  SELF STATE NETWORK
 # Artificial Belief-Integrated Decision Engine: Enhanced Through Abstract Latent Long-term Reasoning (ABIDE-ENTHRALLED)   - self state network
-# Version: 1.0.5
+# Version: 1.1.5
 # Tensorflow version: 2.15.0
 # Activation functions used: relu, relu, softmax
 
@@ -46,8 +46,8 @@ from tensorflow.keras.utils import to_categorical
 import matplotlib.pyplot as plt
 
 # General values
-np.random.seed(42)
-tf.random.set_seed(42)
+np.random.seed(429)
+tf.random.set_seed(429)
 
 N_SELF_STATES = 14
 SELF_EMBED = 8
@@ -167,8 +167,8 @@ X, Y = build_dataset(15000)
 history = model.fit(
     X,
     Y,
-    epochs=25,
-    batch_size=32,
+    epochs=50,
+    batch_size=64,
     validation_split=0.3,
     shuffle=True
 )

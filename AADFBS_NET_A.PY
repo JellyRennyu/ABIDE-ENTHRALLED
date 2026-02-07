@@ -1,7 +1,7 @@
 # NET_A - BALL STATE NETWORK
 # Artificial Belief-Integrated Decision Engine
 # (ABIDE-ENTHRALLED)
-# Version: 1.0.0
+# Version: 1.1.0
 # Tensorflow: 2.15.0
 # Activation functions used: relu, relu, linear
 
@@ -41,8 +41,8 @@ import matplotlib.pyplot as plt
 import tensorflow as tf
 
 # General values
-np.random.seed(15)
-tf.random.set_seed(165)
+np.random.seed(1585)
+tf.random.set_seed(167)
 
 N_BELIEFS = 10
 BALL_EMBED = 6
@@ -134,7 +134,7 @@ def generate_random_belief():
     
     return b.astype(np.float32)
 
-def build_dataset(samples=20000):
+def build_dataset(samples=200000):
     X = []
     Y = []
     for _ in range(samples):
@@ -158,8 +158,8 @@ X, Y = build_dataset(15000)
 history = model.fit(
     X,
     Y,
-    epochs=20,
-    batch_size=32,
+    epochs=100,
+    batch_size=64,
     validation_split=0.3,
     shuffle=True
 )

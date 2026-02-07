@@ -1,6 +1,6 @@
 # NET_C -  ENEMY STATE NETWORK
 # Artificial Belief-Integrated Decision Engine: Enhanced Through Abstract Latent Long-term Reasoning (ABIDE-ENTHRALLED)   - enemy state network
-# Version: 1.0.1
+# Version: 1.1.1
 # Tensorflow version: 2.15.0
 # Activation functions used: relu, relu, linear
 
@@ -39,8 +39,8 @@ from tensorflow.keras.layers import Dense, Activation
 import matplotlib.pyplot as plt
 
 # General values
-np.random.seed(45)
-tf.random.set_seed(47)
+np.random.seed(445)
+tf.random.set_seed(447)
 
 N_BELIEFS = 12
 ENEMY_EMBED = 6
@@ -147,7 +147,7 @@ history = model.fit(
     X,
     Y,
     epochs=100,
-    batch_size=16,
+    batch_size=128,
     validation_split=0.1,
     shuffle=True
 )

@@ -1,6 +1,6 @@
 # NET_T - Long-term Strategic Transformer
 # Artificial Belief-Integrated Decision Engine: Enhanced Through Abstract Latent Long-term Reasoning (ABIDE-ENTHRALLED) 
-# Version: 1.0.2
+# Version: 1.1.2
 # Tensorflow version: 2.15.0
 
 # ----------------------------------------------------------
@@ -45,8 +45,8 @@ from tensorflow.keras.layers import (
 import matplotlib.pyplot as plt
 
 # Parameters
-np.random.seed(148)
-tf.random.set_seed(15)
+np.random.seed(1448)
+tf.random.set_seed(145)
 
 SEQ_LEN = 20 # Max legnth plays considered
 EMBED_DIM = 18 # Embedding per play
@@ -138,7 +138,7 @@ model.compile(
 history = model.fit(
     X, Y,
     epochs=75,
-    batch_size=64,
+    batch_size=256,
     validation_split=0.2,
     shuffle=True
 )
@@ -162,3 +162,6 @@ plt.legend()
 plt.grid(True)
 plt.tight_layout()
 plt.show()
+
+# model saveq
+model.save("AADFBS_NET_T.keras")
