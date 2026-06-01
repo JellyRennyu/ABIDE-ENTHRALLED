@@ -10,7 +10,7 @@ This project, **ABIDE-ENTHRALLED**, has been developed to explore and apply adva
 ## Authors and Contributors
 - **Lead Author**: Yael López-González (alias: JellyRennyu)
 - **Contributors**: Altagracia Caridad Medina-Santiago, Carlos Parra Andrade (alias: Carlos Pulguita)
-- **Organization/Club**: Club de Robótica ITV
+- **Organization/Club**: Club de Robótica ITVER
 
 ## Inspiration and Goals
 The project is inspired by the intersection of:
@@ -28,7 +28,7 @@ The project is inspired by the intersection of:
 Special thanks to:
 - The open-source community for libraries and resources.
 - Mentors and colleagues who supported the development.
-- Club de Robótica ITV for providing a collaborative space.
+- Club de Robótica ITVER for providing a collaborative space.
 
 ---
 
